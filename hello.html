@@ -1,23 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="hello.css">
+    <script src="https://kit.fontawesome.com/d8893e5249.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Hello</title>
 </head>
 <body>
-    <h1>Ordered list</h1>
-    <ol>
-        <li>First</li>
-        <li>Second</li>
-        <li>Third</li>
-    </ol>
 
-    <h1>Unordered list</h1>
-    <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ul>
-    <img src="logo.jpg" alt="ITMO" width="300">
+
+<header>
+    <div class="first">
+        <img src="assets/eye.png" class="eye" alt="Eye"/>
+        <div class="text-1">Версия для слабовидящих</div>
+        <div class="d7">
+            <form class="searchform">
+                <img class="searchform__img" src="assets/search.png" alt="Search">
+                <label>
+                    <input class="searchform__inp" placeholder="Поиск по сайту"/>
+                </label>
+                <button class="searchform__btn">
+                    Найти
+                </button>
+            </form>
+        </div>
+        <a href="https://vk.com/aitip"> <img class="media" src="assets/vk.png" alt="VK"/> </a>
+        <a href="https://www.youtube.com/channel/UCIAJh4nrbN_3HwMiZWqSm8Q?view_as=subscriber"> <img class="media" src="assets/youtube.png" alt="YouTube"/> </a>
+
+    </div>
+    <div class="container">
+        <div class="header__inner">
+            <nav>
+                <ul class="topmenu">
+                    <li><a>Абитуриентам<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a>Направления подготовки<span class="fa fa-caret-right"></span></a>
+                                <ul class="submenu2">
+                                    <li><a href="">Стоимость</a></li>
+                                    <li><a href="">Важные документы</a></li>
+                                    <li><a href="">Кураторы</a></li>
+                                    <li><a href="">Как поступить</a></li>
+                                    <li><a href="">Время и даты</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Приемная кампания<span class="fa fa-caret-right"></span></a>
+                                <ul class="submenu2">
+                                    <li><a href="">Документы</a></li>
+                                    <li><a href="">Ход</a></li>
+                                    <li><a href="">Расписание ВИ</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Контакты<span class="fa fa-caret-right"></span></a>
+                                <ul class="submenu2">
+                                    <li><a href="">Телефонный справочник</a></li>
+                                    <li><a href="">Карта корпусов</a></li>
+                                    <li><a href="">Задать вопрос</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">Студентам и выпускникам<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="">Расписание занятий</a></li>
+                            <li><a href="">Личный кабинет</a></li>
+                            <li><a href="">Лаборатории</a></li>
+                            <li><a href="">Дополнительное профессиональное образование</a></li>
+                            <li><a href="">Трудоустройство</a></li>
+                            <li><a href="">Наши выпускники</a></li>
+                            <li><a href="">Ассоциация выпускников</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Сотрудникам<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="">Документы</a></li>
+                            <li><a href="">Выборы заведующих кафедрами</a></li>
+                            <li><a href="">Вакансии и конкурсы ППС</a></li>
+                            <li><a href="">ЭБС</a></li>
+                            <li><a href="">ЕОИС</a></li>
+                            <li><a href="">Списки литературы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Партнеры<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="">Индустриальные</a></li>
+                            <li><a href="">Образовательные</a></li>
+                            <li><a href="">Работодатели</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+    </div>
+    </div>
+</header>
+<div class="intro">
+<div>
+    <img src="assets/Aitip%20(7).png" alt="logo" class="adapt">
+</div>
+</div>
+
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Институт
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <div class="row">
+                <div class="column">
+                    <h3>Об институте</h3>
+                    <a href="#">Приветствие директора</a>
+                    <a href="#">История</a>
+                    <a href="#">Архив</a>
+                    <a href="#">Карта корпусов</a>
+                </div>
+                <div class="column">
+                    <h3>Персоналии</h3>
+                    <a href="#">Руководство</a>
+                    <a href="#">Сотрудники</a>
+                </div>
+                <div class="column">
+                    <h3>Структура и органы управления</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">Образование</a>
+    <a href="#">Наука</a>
+    <a href="#">Юридическая клиника</a>
+</div>
 </body>
 </html>
