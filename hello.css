@@ -52,8 +52,7 @@ nav a {
 }
 .topmenu > li:first-child {border-left: 0;}
 .topmenu > li > a {
-    background: #365dc1;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     font-family: "Consolas", serif;
@@ -72,7 +71,6 @@ nav a {
 
     z-index: 5;
     min-width: 250px;
-    background: #365dc1;
     border-top: 1px solid #CBCBCC;
     border-left: 1px solid #CBCBCC;
     border-right: 1px solid #CBCBCC;
@@ -87,7 +85,7 @@ nav a {
 }
 .submenu li {position: relative;}
 .submenu li a {
-    color: whitesmoke;
+    color: black;
     padding: 10px 20px;
     font-size: 13px;
     border-bottom: 1px solid #CBCBCC;
@@ -108,7 +106,6 @@ nav li:hover > .submenu {
     position: absolute;
     z-index: 5;
     min-width: 200px;
-    background: #365dc1;
     border-top: 1px solid #CBCBCC;
     border-left: 1px solid #CBCBCC;
     border-right: 1px solid #CBCBCC;
@@ -121,7 +118,7 @@ nav li:hover > .submenu {
 }
 .submenu2 li {position: relative;}
 .submenu2 li a {
-    color: whitesmoke;
+    color: black;
     padding: 10px 20px;
     font-size: 13px;
     border-bottom: 1px solid #CBCBCC;
